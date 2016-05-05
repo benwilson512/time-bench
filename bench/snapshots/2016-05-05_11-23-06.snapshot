@@ -1,0 +1,10 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+DateTimeBench	Calendar.DateTime.Parse.rfc3339_utc @iso_z		50000	1531796
+DateTimeBench	Calendar.DateTime.from_erl! @erl		100000	1148279
+DateTimeBench	Timex.DateTime.from @erl		20000	1584292
+DateTimeBench	Timex.parse! @iso_z		20000	1730903
+EctoBench	Calecto.DateTimeUTC.cast!(@iso_z)		200000	1954343
+EctoBench	Calecto.DateTimeUTC.load(@erl)		10000000	1334752
+EctoBench	Timex.Ecto.DateTime.cast!(@iso_z)		20000	1724973
+EctoBench	Timex.Ecto.DateTime.load(@erl)		50000	3721131

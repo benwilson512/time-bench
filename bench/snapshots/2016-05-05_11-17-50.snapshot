@@ -1,0 +1,6 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+DateTimeBench	Calendar.DateTime.Parse.rfc3339_utc @erl		100000	1139272
+DateTimeBench	Calendar.DateTime.Parse.rfc3339_utc @iso_z		50000	1501184
+DateTimeBench	Timex.parse! @erl		20000	1587939
+DateTimeBench	Timex.parse! @iso_z		20000	1761979

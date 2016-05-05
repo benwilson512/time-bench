@@ -1,0 +1,6 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+EctoBench	Calecto.DateTimeUTC.cast!(@iso_z)		200000	1910849
+EctoBench	Calecto.DateTimeUTC.load(@erl)		10000000	1423387
+EctoBench	Timex.Ecto.DateTime.cast!(@iso_z)		20000	1666358
+EctoBench	Timex.Ecto.DateTime.load(@erl)		50000	3707221
