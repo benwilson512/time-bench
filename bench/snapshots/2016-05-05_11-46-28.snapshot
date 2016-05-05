@@ -1,0 +1,4 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+ErlToIsoZBench	Calendar		100000	1719637
+ErlToIsoZBench	Timex		10000	2761375

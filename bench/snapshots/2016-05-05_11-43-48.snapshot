@@ -1,0 +1,4 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+DateTimeFormatBench	Calendar.DateTime.Format.rfc3339		500000	3363711
+DateTimeFormatBench	Timex.Ecto.DateTime.dump(@iso_z)		10000	2111355

@@ -1,0 +1,17 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+DateTimeFormatBench	Calendar.DateTime.Format.rfc3339		200000	1551796
+DateTimeFormatBench	Timex.format!(@timex_iso_z, {ISOz})		10000	2131719
+DateTimeParseBench	Calendar.DateTime.Parse.rfc3339_utc @iso_z		50000	1510104
+DateTimeParseBench	Calendar.DateTime.from_erl! @erl		100000	1134392
+DateTimeParseBench	Timex.DateTime.from @erl		20000	1575987
+DateTimeParseBench	Timex.parse! @iso_z		20000	1735386
+EctoDumpBench	Calecto.DateTimeUTC.dump(@iso_z)		10000000	1831095
+EctoDumpBench	Ecto.DateTime.dump(@iso_z)		100000000	8111637
+EctoDumpBench	Timex.Ecto.DateTime.dump(@iso_z)		10000	1178591
+EctoLoadBench	Calecto.DateTimeUTC.load(@erl)		10000000	1333752
+EctoLoadBench	Ecto.DateTime.load(@erl)		10000000	1335757
+EctoLoadBench	Timex.Ecto.DateTime.load(@erl)		20000	1499134
+ErlToIsoZBench	Calendar		100000	1856030
+ErlToIsoZBench	Timex		10000	2803212
+ErlToIsoZBench	custom		10000000	5796565
