@@ -30,7 +30,7 @@ defmodule TimeBench.Mixfile do
     [
       {:benchfella, "> 0.0.0"},
       {:timex_ecto, "1.0.4"},
-      {:calendar, "0.14.0", override: true},
+      {:calendar, "0.14.1", override: true},
       {:calecto, "0.5.2"},
     ]
   end
