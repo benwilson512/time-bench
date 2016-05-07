@@ -1,4 +1,5 @@
 # TimeBench
+
 ## DateTimeFormatBench
 ```
 Calendar.DateTime.Format.rfc3339                200000   7.76 µs/op
@@ -28,4 +29,12 @@ Timex.Ecto.DateTime.load(@erl)                   20000   74.96 µs/op
 custom                                        10000000   0.58 µs/op
 Calendar                                        100000   18.56 µs/op
 Timex                                            10000   280.32 µs/op
+```
+
+## How to run the benchmarks on your own machine
+```
+git clone https://github.com/benwilson512/time-bench.git
+cd time-bench/
+mix deps.get
+mix bench
 ```
